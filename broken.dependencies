@@ -1,0 +1,15 @@
+[
+
+  {
+    "remote": "github", 
+    "repository": ""dfuse06/android_kernel_zte_draconis",
+    "target_path": "kernel/zte/draconis"
+     "branch": "cm12.1"
+  },
+  {
+    "remote": "github",
+    "repository": "TheMuppers/vendor_zte",
+    "target_path": "vendor/zte/draconis",
+    "branch": "lp5.1"
+  }
+]
