@@ -8,7 +8,7 @@
   },
   {
     "remote": "github",
-    "repository": "TheMuppers/vendor_zte",
+    "repository": "dfuse06/vendor_zte",
     "target_path": "vendor/zte/draconis",
     "branch": "lp5.1"
   }
