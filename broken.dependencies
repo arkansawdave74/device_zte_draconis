@@ -8,8 +8,8 @@
   },
   {
     "remote": "github",
-    "repository": "dfuse06/vendor_zte",
+    "repository": "dfuse06/proprietary_vendo_zte",
     "target_path": "vendor/zte/draconis",
-    "branch": "lp5.1"
+    "branch": "lp-5.1"
   }
 ]
