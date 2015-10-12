@@ -4,7 +4,7 @@
     "remote": "github", 
     "repository": ""dfuse06/android_kernel_zte_draconis",
     "target_path": "kernel/zte/draconis"
-     "branch": "cm12.1"
+     "branch": "lp-5.1"
   },
   {
     "remote": "github",
