@@ -144,25 +144,6 @@ BOARD_USES_QCOM_HARDWARE := true
 BOARD_SEPOLICY_DIRS += \
     device/zte/draconis/sepolicy
 
-BOARD_SEPOLICY_UNION += \
-    file.te \
-    file_contexts \
-    genfs_contexts \
-    init_shell.te \
-    kernel.te \
-    location.te \
-    mediaserver.te \
-    mm-qcamerad.te \
-    mpdecision.te \
-    platform_app.te \
-    property.te \
-    property_contexts \
-    rmt_storage.te \
-    sensors.te \
-    system_server.te \
-    thermal-engine.te \
-    wcnss_service.te
-
 # Vold
 BOARD_VOLD_DISC_HAS_MULTIPLE_MAJORS := true
 BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
