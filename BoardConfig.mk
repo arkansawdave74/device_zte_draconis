@@ -43,8 +43,8 @@ BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --dt device/zte/draconis/dt.img --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_SOURCE := kernel/zte/draconis
 TARGET_KERNEL_CONFIG := draconis_defconfig
-#KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-#KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-cortex_a7-linux-gnueabihf-linaro_4.9/bin"
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-cortex_a7-linux-gnueabihf-linaro_4.9/bin"
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
